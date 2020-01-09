@@ -26,4 +26,5 @@ make build
 
 - Add icon to README
 - Add Vagrant support to compile img on all architectures.
+- Automate builds on Travis with github releases as images
 
