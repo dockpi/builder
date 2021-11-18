@@ -16,7 +16,7 @@ if [ -f "$CUSTOM_IMAGE_FILENAME" ]; then
   echo "$CUSTOM_IMAGE_FILENAME exists, deleting it"
   rm "$CUSTOM_IMAGE_FILENAME"
 fi
-fallocate -l 3.0G "$CUSTOM_IMAGE_FILENAME"
+fallocate -l ${IMAGE_SIZE}G "$CUSTOM_IMAGE_FILENAME"
 
 
 # TODO Get output in a variable
